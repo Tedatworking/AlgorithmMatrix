@@ -1,11 +1,8 @@
 /*
-Given a matrix of lower alphabets and a dictionary. Find all words in the dictionary that can be found in the matrix. A word can start from any position in the matrix and go left/right/up/down to the adjacent position. 
+Given a matrix of lower alphabets and a dictionary. 
+Find all words in the dictionary that can be found in the matrix. 
+A word can start from any position in the matrix and go left/right/up/down to the adjacent position. 
 */
-
-#include<iostream>
-#include<vector>
-#include<set>
-using namespace std;
 
 const int ALPHABETS_SIZE = 26;
 const int dx[4] = {0, -1, 0, 1};
